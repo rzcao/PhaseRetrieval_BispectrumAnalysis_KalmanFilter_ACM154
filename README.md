@@ -7,7 +7,7 @@ To run the Kalman filter based phase estimation algorithm, please download the f
 https://dx.doi.org/10.6084/m9.figshare.3593370.v1
 (Required files: Digit 4 experimental data.tif & PolarToCartesian.m)
 
-In speckle correlation imaging [2-3], the unkown object is required to be smaller the memory effect range [5]. This is a prior we can use to obtain a better phase estimate. Here, we improved the phase estimate of Bispecturm Analysis by cooperating with such prior on the object size with the help of Kalman filter.
+In speckle correlation imaging [2-3], the unkown object is required to be smaller the memory effect range [4]. This is a prior we can use to obtain a better phase estimate. Here, we improved the phase estimate of Bispecturm Analysis by cooperating with such prior on the object size with the help of Kalman filter.
 
 1. Wu,T., Katz, O., Shao, X. & Gigan, S. Single-shot diffraction-limited imaging through scattering layers via bispectrum analysis. Opt. Lett. 41, 5003-5006 (2016)
 2. Bertolotti, J. et al. Non-invasive imaging through opaque scattering layers. Nature 491, 232–234 (2012).
