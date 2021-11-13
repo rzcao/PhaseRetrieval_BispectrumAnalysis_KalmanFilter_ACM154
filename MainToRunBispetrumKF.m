@@ -229,9 +229,9 @@ end
 % This be derived using random phasor sum + a constant phasor. When the
 % constant phasor is large, xi is approximately Gaussian.
 
-% y_(k+1) = H*p_(k+1) + yita, where H = 1, yita ~ Norm(0, gamma)
+% y_(k+1) = H*p_(k+1) + eta, where H = 1, eta ~ Norm(0, gamma)
 
-% Why is yita Gaussian?
+% Why is eta Gaussian?
 % Possion noise can be approximated as Gaussian when the signal is large.
 
 % measurement y_k+1 = estimatedPhase_(k+1)
